@@ -1,0 +1,170 @@
+:root{
+    --purple: #8c38ff;
+    --darkwaterBlue: #0f292f;
+    --poppingPink: #cb2d6f;
+    --accentBlack: #2d283e;
+    --promisingPurple: #281941;
+    --tiktokBlue: #4148e7;
+    --tiktokPink: #ea445a;
+    --tiktokPinkwarm: #ea445ad3;
+    --shiningYellow: #fdd935;
+    --grapeGreen: #a6aa35;
+    --peach: #faa88b;
+    --warmPeach: #eb716a;
+    --warmPeachcold: #eb706ab9;
+    --pinkypeach: #f9d4e6;
+    --mint: #99edc3;
+    --seafoam: #3ded97;
+    --navbarPurple: #54005d;
+    --GAorange: #ff9f59;
+    --GAcream: #e7d6d0;
+    --darkOrange: #d43f10;
+    --searchgreen: #76cebf;
+    --darkAliceLiddel: #0d1945;
+    --aliceEyes: #71744a;
+    --brewBlack: #1d1d1d;
+}
+
+
+
+
+/* Navbar CSS */
+.navbar{
+    backdrop-filter: blur(6px) saturate(200%);
+    -webkit-backdrop-filter: blur(6px) saturate(200%);
+    background-color: rgba(13, 13, 49, 0.53);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.navbar-brand{
+    color: var(--poppingPink);
+    font-size: 40px;
+    font-family: "mrs-eaves", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.nav-link{
+    font-size: 30px;
+    position: relative;
+    margin-left: 30px;
+    color: var(--poppingPink);
+    font-family: "mrs-eaves", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navbar-text{
+    color: black;
+    font-family: "mrs-eaves", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+
+/* Navbar End */
+
+
+
+#experience-page,#contact-page{
+    background-image: radial-gradient(var(--poppingPink),black);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+/*Index Page*/
+#index-page{
+    /*background: var(--accentBlack);*/
+    /*background: radial-gradient(circle, rgba(94,0,19,1) 0%, rgba(163,3,146,1) 79%, rgba(0,7,9,1) 100%);*/
+    background-image: radial-gradient(var(--poppingPink),black);
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: "mrs-eaves", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#index-page a{
+    text-decoration: none;
+}
+#index-page html{
+    scroll-behavior: smooth;
+}
+
+#genesis{
+    margin-top: 40px;
+    text-align: center;
+    height: 600px;
+}
+#mainImg{
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+#myName{
+    color: var(--peach);
+    text-decoration: underline;
+}
+#cyberSec{
+    font-size: 40px;
+    color: var(--peach);
+}
+#aboutMe-section-link{
+    font-size: 50px;
+    color: var(--peach);
+}
+
+/* About me section */
+
+#about-me{
+    /*background-color: var(--brewBlack); */
+    background-image: radial-gradient(var(--darkAliceLiddel),var(--brewBlack));
+    height: 100%;
+    margin-top: 250px;
+    text-align: center;
+    color: wheat;
+}
+#about-me h1{
+    margin-top: 200px;
+}
+#about-me p {
+    font-size: 20px;
+}
+#about-me a{
+    color: var(--poppingPink);
+    text-decoration: underline;
+}
+
+
+
+
+/* What I do section */
+
+#what-i-do{
+    margin-top: 600px;
+    text-align: center;
+}
+
+
+
+/* Contact page */
+
+#contact-info{
+    margin-top: 40px;
+    text-align: center;
+    color: var(--peach);
+}
+
+
+
+
+/* Media Tags */
+
+
+
+-webkit-scrollbar {
+    display: none;
+}
+body{
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
