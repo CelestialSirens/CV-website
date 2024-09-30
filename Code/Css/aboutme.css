@@ -1,0 +1,29 @@
+#aboutMe-page{
+    background-image: radial-gradient(var(--poppingPink),black);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container h1{
+    color: var(--peach);
+}
+#content{
+    color: var(--peach);
+}
+#content-title{
+    margin-top: 20px;
+    text-decoration: underline dashed;
+}
+#content-intro{
+    box-sizing: content-box;
+    width: 400px;
+    padding: 30px;
+    background-color: wheat;
+    color: var(--accentBlack);
+    border: 3px solid var(--peach);
+    box-shadow: 5px 10px var(--accentBlack) ;
+}

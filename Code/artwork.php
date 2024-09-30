@@ -11,7 +11,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
         crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Css/styles.css" />
     <!--  Add Favicon code here and different font apis      -->
 </head>
 <body>

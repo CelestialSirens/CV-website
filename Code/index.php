@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="Css/colours.css">
+    <link rel="stylesheet" href="Css/styles.css" />
     <link rel="stylesheet" href="https://use.typekit.net/lxw0sve.css">
     <!--  Add Favicon code here and different font apis      -->
 </head>
@@ -26,10 +27,10 @@
 
 
         <a href="#what-i-do"><h2 id="cyberSec"> CyberSecurity Student <br> & <br> Aspiring software engineer</h2></a>
-        <a href="experience.php"><h3 id="frontEndDev">Front End Dev</h3></a>
-        <a href="experience.php"> <h4 id="uiUx"> UX/UI designer</h4></a>
+        <a href="aboutMe.php"><h3 id="frontEndDev">Front End Dev</h3></a>
+        <a href="aboutMe.php"> <h4 id="uiUx"> UX/UI designer</h4></a>
         <a href="artwork.php"><h4 id="media-std"> Ex Media Student</h4></a>
-        <a href="#about-me"><h4 id="aboutMe-section-link"> About me</h4></a>
+        <a href="aboutMe.php"><h4 id="aboutMe-section-link"> About me</h4></a>
 
     </section>
 </div>
@@ -40,13 +41,13 @@
 
 <div class="main">
     <section id="about-me">
-         <h1> About me</h1>
-        <p> My names Elizabeth, I'm currently studying for a BSc CyberSecurity degree @ Aston University, England </p>
-        <p> I'm currently on my Placement year, working at ~ Currently UNKNOWN             </p>
-        <p> I have a <i> <a>slight</a></i> obsession with <a> Alice In Wonderland </a> </p>
-        <p> I enjoy researching subject material whether that be History, CyberSecurity techniques, Media / Pyschology papers or anything Engineering based. </p>
-        <p> In the CyberSecurity field however, my main focus is Audio processing data & <a href="https://en.wikipedia.org/wiki/Steganography">Steganography</a> . <br> Both of which I wish to Pursue in research after University.  </p>
-        <p> I started programming in 2021, and only started any Website related design in late 2023, my first Project being a group project @Aston called 'Cadence' from October 2023 - April 2024 <br> <br>
+         <h1 id="about-title"> About me</h1>
+        <p> My names Elizabeth, I'm currently studying for a BSc CyberSecurity degree @ Aston University, England
+         I'm currently on my Placement year, working at ~ Currently UNKNOWN
+         I have a <i> <a>slight</a></i> obsession with <a> Alice In Wonderland </a>
+         I enjoy researching subject material whether that be History, CyberSecurity techniques, Media / Pyschology papers or anything Engineering based.
+         In the CyberSecurity field however, my main focus is Audio processing data & <a href="https://en.wikipedia.org/wiki/Steganography">Steganography</a> . <br> Both of which I wish to Pursue in research after University.
+         I started programming in 2021, and only started any Website related design in late 2023, my first Project being a group project @Aston called 'Cadence' from October 2023 - April 2024 <br> <br>
          This is my 2nd.</p>
 
         <h2> My knowledge </h2>
