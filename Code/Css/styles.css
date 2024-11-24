@@ -29,6 +29,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
+    margin-left: 20px;
 }
 
 
@@ -63,6 +64,13 @@
     text-align: center;
     height: 600px;
 }
+.index-links a{
+    color: var(--peach);
+}
+
+.index-links a:hover{
+    color: var(--darkAliceLiddel);
+}
 #mainImg{
     border: 3px solid black;
     border-radius: 50%;
@@ -76,9 +84,15 @@
     font-size: 40px;
     color: var(--peach);
 }
+#cyberSec:hover{
+    color: var(--darkAliceLiddel);
+}
 #aboutMe-section-link{
     font-size: 50px;
     color: var(--peach);
+}
+#aboutMe-section-link:hover{
+    color: var(--darkAliceLiddel);
 }
 
 /* About me section */
@@ -111,8 +125,15 @@
 #what-i-do{
     margin-top: 600px;
     text-align: center;
+    align-items: center;
+    align-content: center;
 }
-
+#what-i-do li{
+    list-style: none;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+}
 
 
 /* Contact page */
@@ -123,6 +144,50 @@
     color: var(--peach);
 }
 
+/*  Login Page   */
+#loginPage {
+    background-image: radial-gradient(var(--promisingPurple),var(--accentBlack));
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "mrs-eaves", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+.log-box{
+    color: var(--poppingPink);
+}
+.log-box h2{
+}
+.log-box input{
+    text-align: center;
+    background: transparent;
+    border: solid 2px var(--tiktokPink);
+    color: var(--poppingPink);
+    margin-bottom: 10px;
+}
+.extraLogInfo a{
+    color: var(--poppingPink);
+    margin-top: 20px;
+    text-decoration: none;
+}
+.extraLogInfo a:hover{
+    color: mintcream;
+}
+#login-BTN{
+    color: var(--poppingPink);
+    background: transparent;
+    border: none;
+    border-radius: 25%;
+}
+#login-BTN:hover{
+    color: green;
+}
+
+
 
 
 
@@ -130,10 +195,24 @@
 
 
 
--webkit-scrollbar {
-    display: none;
-}
 body{
 -ms-overflow-style: none;  /* IE and Edge */
 scrollbar-width: none;  /* Firefox */
+}
+
+
+footer{
+   position: relative;
+    height: 150px;
+    margin-top: 100px;
+    clear: both;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer a:hover{
+    color: var(--poppingPink);
 }

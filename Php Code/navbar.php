@@ -25,6 +25,9 @@
                 <span class="navbar-text">
                     <a href="../Code/contact.php"> Contact Me</a>
                 </span>
+                <span class="navbar-text">
+                    <a href="../Code/login.php"> Login</a>
+                </span>
             </div>
         </div>
     </nav>

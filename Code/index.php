@@ -10,10 +10,7 @@
     <title> Elizabeth Byrne Cv</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="Css/colours.css">
-    <link rel="stylesheet" href="Css/styles.css" />
-    <link rel="stylesheet" href="https://use.typekit.net/lxw0sve.css">
+    <?php require "../Php Code/links.php"?>
     <!--  Add Favicon code here and different font apis      -->
 </head>
 
@@ -27,11 +24,12 @@
 
 
         <a href="#what-i-do"><h2 id="cyberSec"> CyberSecurity Student <br> & <br> Aspiring software engineer</h2></a>
+        <div class="index-links">
         <a href="aboutMe.php"><h3 id="frontEndDev">Front End Dev</h3></a>
         <a href="aboutMe.php"> <h4 id="uiUx"> UX/UI designer</h4></a>
         <a href="artwork.php"><h4 id="media-std"> Ex Media Student</h4></a>
         <a href="aboutMe.php"><h4 id="aboutMe-section-link"> About me</h4></a>
-
+        </div>
     </section>
 </div>
 
@@ -57,47 +55,10 @@
 </div>
 
 
-<div class="main">
-    <section id="what-i-do">
-        <p> I'm Proficient in Front-End Design using :</p>
-    <ul class="Front-end">
-        <li> Html</li>
-        <li> Css </li>
-        <li> Bootstrap</li>
-        <li> JavaScript</li>
-        <li> React Framework</li>
-        <li> PHP </li>
 
 
-
-    </ul>
-
-    </section>
-</div>
-
-
-
-</body>
+<?php require "../Php Code/footer.php" ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
 </html>

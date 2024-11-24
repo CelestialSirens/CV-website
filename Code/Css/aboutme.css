@@ -3,6 +3,14 @@
     background-repeat: no-repeat;
     height: 100%;
 }
+.nav-header{
+    text-align: center;
+    color: white;
+}
+.nav-header a{
+    color: white;
+    text-decoration: none;
+}
 .container{
     display: flex;
     flex-direction: column;
@@ -14,9 +22,14 @@
 #content{
     color: var(--peach);
 }
+#content #webDevP,#progSkillP{
+    text-align: center;
+
+}
 #content-title{
     margin-top: 20px;
     text-decoration: underline dashed;
+    text-align: center;
 }
 #content-intro{
     box-sizing: content-box;
@@ -26,4 +39,13 @@
     color: var(--accentBlack);
     border: 3px solid var(--peach);
     box-shadow: 5px 10px var(--accentBlack) ;
+    text-align: center;
+}
+.web-dev{
+    list-style: none;
+    text-align: center;
+}
+.program-lang{
+    list-style: none;
+    text-align: center;
 }
