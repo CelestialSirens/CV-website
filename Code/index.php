@@ -16,6 +16,7 @@
 
 <body id="index-page">
 <?php require "../Php Code/navbar.php" ?>
+
 <div class="main">
     <section id="genesis">
         <h1 id="myName" class="text-center">Elizabeth Byrne</h1>
@@ -32,7 +33,7 @@
         </div>
     </section>
 </div>
-
+<?php require "../Php Code/buttons.php" ?>
  <!-- Need to add section here to make background blend with Landing area -> About me -->
 
 
